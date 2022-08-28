@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(#A8ADE2, #FF92B5);
+  height: 100vh;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 7px;
+  box-shadow: 1px 1px 10px 10px #000000;
+}
+
+#amount {
+  width: 99%;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 7px;
+
+
+}
+
+select {
+  text-align: center;
+  border-radius: 4px;
+
+
+  margin-top: 20px;
+
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item {
+  margin: 20px;
+  border-radius: 4px;
+
+}
+
+div {
+  margin-top: 10px;
+}
+
+button {
+  background: black;
+  color: white;
+  height: 25px;
+  width: 67px;
+  border: 2px solid;
+  border-radius: 4px;
+}
